@@ -1,0 +1,51 @@
+section.work {
+    .milestone {
+        height: 12rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &.left {
+            padding-right: 4rem;
+            padding-left: 3rem;
+
+            .marker {
+                right: 0;
+            }
+
+            &:after {
+                width: 0.5rem;
+                height: 100%;
+                content: "";
+                position: absolute;
+                right: -0.25rem;
+                background: white;
+            }
+        }
+
+        &.right {
+            padding-left: 4rem;
+            padding-right: 3rem;
+
+            .marker {
+                left: 0;
+            }
+
+            &:before {
+                width: 0.5rem;
+                height: 100%;
+                content: "";
+                position: absolute;
+                left: -0.25rem;
+                background: white;
+            }
+        }
+
+        .marker {
+            position: absolute;
+            width: 2rem;
+            border: 3px solid;
+        }
+    }
+}

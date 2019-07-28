@@ -1,0 +1,100 @@
+@media (max-width: 1200px) {
+    html {
+      font-size: 15px;
+    }  
+}
+  
+@media (max-width: 1024px) {
+    .banner {
+      max-height: 1024px;
+    }
+  
+    .section {
+      min-height: unset;
+    }
+}
+  
+@media (max-width: 992px) {
+    html {
+      font-size: 14px;
+    }
+  
+    .banner .container {
+      justify-content: center !important;
+    }
+  
+    .banner .profile__image {
+      margin-bottom: 3rem;
+    }
+    .banner .profile__image, .banner .profile__content {
+      text-align: center !important;
+      padding-left: 1rem !important;
+    }
+  
+    .section.skills .skill-heading  {
+      text-align: left;
+    }
+}
+  
+@media (max-width: 768px) {
+    .section.sticky {
+      padding-top: unset;
+    }
+  
+    .section.sticky h1 {
+      position: relative;
+    }
+  
+    .section.work .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .section.work .milestone.left:after {
+      content: none;
+    }
+  
+    .section.work .milestone.left, .section.work .milestone.right {
+      text-align: left !important;
+      padding-left: 6rem;
+      padding-right: 0;
+    }
+  
+    .section.work .milestone.left .marker, .section.work .milestone.right .marker {
+      left: 0rem;
+    }
+  
+    .section.work .milestone.left:before, .section.work .milestone.right:before {
+      width: 0.5rem;
+      height: 100%;
+      content: "";
+      position: absolute;
+      left: 0rem;
+      background: white;
+    }
+    
+    .section.work .useless-column {
+      display: none;
+    }
+}
+  
+@media (max-width: 567px) {
+    html {
+      font-size: 13px;
+    }
+  
+    h1 {
+      font-size: 2.5rem !important;
+    }
+  
+    h2 {
+      font-size: 2rem !important;
+    }
+  
+    .container  {
+      max-width: 95%;
+    }
+  
+    .banner .profile__image img {
+      width: 20rem;
+    }
+}
