@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import Social from '../Social/Social';
 import './Banner.scss';
+import ProfileImage from '../../assets/images/image.jpg';
 
 function Banner({user}) {
   return (
@@ -10,7 +11,7 @@ function Banner({user}) {
         <Navbar></Navbar>
         <div className="d-flex flex-row justify-content-center align-items-center flex-wrap profile">
           <div className="col-md-12 col-lg-6 profile__image pr-5">
-            <img src={user.profile_image} alt="Profile"/>
+            <img src={ProfileImage} alt="Profile"/>
           </div>
           <div className="col-md-12 col-lg-6 profile__content pl-5">
             <h1 className="text-uppercase">{user.name}</h1>
