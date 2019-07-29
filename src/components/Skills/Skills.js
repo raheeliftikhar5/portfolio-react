@@ -3,7 +3,7 @@ import './Skills.scss';
 
 function Skills() {
   return (
-    <section className="section container container--large skills">
+    <section className="section container container--large skills" id="skills">
       <div className="section__heading text-center">
         <h1 className="text-uppercase">My Skills</h1>
       </div>

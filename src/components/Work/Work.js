@@ -3,7 +3,7 @@ import './Work.scss';
 
 function Work() {
   return (
-    <section className="section container container--large work">
+    <section className="section container container--large work" id="work">
       <div className="section__heading text-center">
         <h1 className="text-uppercase">Work Experience</h1>
       </div>

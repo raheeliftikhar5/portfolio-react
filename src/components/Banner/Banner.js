@@ -1,10 +1,13 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar';
+import Social from '../Social/Social';
 import './Banner.scss';
 
 function Banner({user}) {
   return (
-    <section className="banner">
-      <div className="d-flex flex-column justify-content-center align-items-center container container--large banner__content">
+    <section className="banner" id="banner">
+      <div className="d-flex flex-column justify-content-between align-items-center container container--large banner__content">
+        <Navbar></Navbar>
         <div className="d-flex flex-row justify-content-center align-items-center flex-wrap profile">
           <div className="col-md-12 col-lg-6 profile__image pr-5">
             <img src={user.profile_image} alt="Profile"/>
@@ -17,6 +20,7 @@ function Banner({user}) {
             </a>
           </div>
         </div>
+        <Social></Social>
       </div>
     </section>
   )

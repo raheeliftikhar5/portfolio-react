@@ -3,7 +3,7 @@ import './Portfolio.scss';
 
 function Portfolio() {
   return (
-    <section className="section container container--large portfolio">
+    <section className="section container container--large portfolio" id="portfolio">
       <div className="section__heading text-center">
         <h1 className="text-uppercase">My Portfolio</h1>
       </div>

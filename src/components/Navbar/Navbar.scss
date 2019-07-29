@@ -1,0 +1,16 @@
+.navbar-menu {
+    margin: 2rem 0;
+    
+    div {
+        margin: 0 2.5rem;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        display: inline-block;
+    }
+    
+    div:hover {
+        text-decoration: none;
+        color: #25cb68;
+    }
+}
